@@ -8,7 +8,6 @@ from sklearn.metrics import classification_report, confusion_matrix
 from sklearn.linear_model import LogisticRegression
 
 
-# Create your views here.
 def home(request):
     return render(request, 'index.html')
 
